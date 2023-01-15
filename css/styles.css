@@ -85,12 +85,19 @@ letter-spacing: 0.02em;
 .order-bt{
     background-color: var(--pressed-state);
     color: #ffffff;
-    font-family: inherit;
+    font-family: Roboto;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.04em;
     align-items: center;
     cursor: pointer;
+}
+.order-bt:hover, .order-bt:focus {
+    background-color: var(--pressed-state);
+    }
+
+.order-bt:active {
+    background-color: var(--primary-brand);
 }
 
 /* Features Section */
@@ -123,11 +130,14 @@ letter-spacing: 0.02em;
 .team-member-tittle {
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
 }
 
 .team-member-item {
     font-weight: 400;
+}
+
+.team-car-backgrnd {
+    background-color: #ffffff   ;
 }
 
 /* Footer */
