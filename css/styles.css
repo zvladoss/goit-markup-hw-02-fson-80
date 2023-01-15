@@ -53,6 +53,9 @@ letter-spacing: 0.02em;
     color: var(--brand-text);
     text-decoration: none;
 }
+.nav-list .nav-bt.current {
+    color: var(--primary-brand);
+}
 
 .contacts {
     color : var(--subtle-text);
@@ -66,8 +69,6 @@ letter-spacing: 0.02em;
 
 .nav-bt:focus, .contacts:focus {
     color: var(--primary-brand);
-    border: 1px dashed #9747FF;
-    border-radius: 5px;
 }
 
 
