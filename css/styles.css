@@ -5,6 +5,8 @@
     --primary-brand: #404BBF;
     --pressed-state: #4D5AE5;
     --light-mode-backgrounds-dialogs: #F4F4FD;
+    --accent-color-hairlines: #E7E9FC;
+    --font-family:inherit;
 }
 
 
@@ -17,6 +19,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+
+
+/* STUDIO(INDEX).HTML */
+
+
 
 
 /* Lists-style */
@@ -32,7 +40,7 @@ letter-spacing: 0.02em;
 
 .logo {
     color: var(--pressed-state);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -147,4 +155,45 @@ letter-spacing: 0.02em;
     background-color: var(--brand-text);
     color: var(--light-mode-backgrounds-dialogs);
     font-weight: 400;
+    }
+
+
+
+    /* PORTFOLIO.HTML */
+
+
+    /* Filters */
+
+    .filters, .works-list {
+        list-style-type: none;
+    }
+
+    
+    .btn-filt {
+        background-color: var(--accent-color-hairlines);
+        color: var(--pressed-state);
+        font-family: Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+    }
+    .btn-filt:hover, .btn-filt:focus {
+        background-color: var(--pressed-state);
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    /*  Work experience */
+
+    .list-title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .list-subtitle {
+        font-weight: 400;
+        color: var(--subtle-text);
     }
