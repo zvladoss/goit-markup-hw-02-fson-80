@@ -20,9 +20,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.stealth-text {
+    visibility: hidden;
+}
 
 
-/* STUDIO(INDEX).HTML */
+
+                            /* STUDIO(INDEX).HTML */
 
 
 
@@ -110,6 +114,9 @@ letter-spacing: 0.02em;
 }
 
 /* Features Section */
+
+
+
 
 .features-title {
     font-size: 20px;
